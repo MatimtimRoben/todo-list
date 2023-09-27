@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    margin: auto;
+    width: 25%;
+    border: 3px solid green;
+    padding: 10px;
+}
+form {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+}

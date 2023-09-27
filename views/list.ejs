@@ -1,0 +1,13 @@
+<%- include('header'); -%>
+<body>
+    <h1> <%= myDay %> </h1>
+    <div class="container">
+        <ul>
+            <!-- <li> <%= addedItem %> </li> -->
+            <% for (let i=0; i<addedItem.length; i++) { %>
+            <li> <%= addedItem [i] %> </li>
+            <% } %>
+        </ul>
+    </div>
+<%- include('form'); -%>
+<%- include('footer'); -%>
